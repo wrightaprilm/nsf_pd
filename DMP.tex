@@ -1,0 +1,29 @@
+\documentclass[12pt,letterpaper,indentfirst]{article}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{hyperref}
+\begin{document}
+
+\title{Data Management Plan}
+\maketitle
+
+The results of this project will be empirical datasets of morphology and molecular data, simulation datasets, fossil calibrations, extensions to extant software and educational materials. Most of the files will be small and text-based, though parameter logs from phylogenetic estimation are generally quite large. 
+
+\section{Prior to Publication}
+
+Prior to publication, data matrices will be managed in several ways. Small, plain-text files (such as data matrices) will be hosted in a Git repository using the GitHub online server (\url{http://github.com}). These servers are, by default, public, though it is possible to privatize the data to project collaborators.  Larger files, such as logs from phylogenetic estimation, can also be managed through the use of Git, but will be hosted on a separate Large File Storage server (\url{https://git-lfs.github.com/}). These files are also public by default, but can be privatized. My laptop for the project will be backed up to Condo (http://it.las.iastate.edu/research/hpc/), an ISU high-performance server daily. Backups will be managed using Automator (\url{http://www.apple.com/remotedesktop/automation.html}), a Macintosh proprietary application that automates tasks.\par
+Any digitized data museum data, such as images of specimens in the Field Museum insect collection, will be housed as a project on MorphoBank (http://www.morphobank.org/) initially. These collections are private by default. Prior to publication, any information that was note previously logged in the Field Museum Formicidae database \linebreak (\url{https://www.fieldmuseum.org/node/5101}), such as taxonomic position or images, will be cataloged with the help of Dr. Moreau.  \par
+
+\section{Post-Publication}
+
+At the time of publication, any private repositories of data or images (such as MorphoBank or GitHub) will be made public. The data used in the publications will be uploaded to DataDryad (http://datadryad.org/), a long-term, stable host for data associated with publications. Trees and datasets will be stored in TreeBase (http://treebase.org/), an online database for trees and associated data. The tree of ants will also be housed in the Open Tree of Life database (http://opentreeoflife.org/) and marked for inclusion in their synthesis tree. This project will generate novel fossil calibrations, which will be archived in the Fossil Calibration Database (http://fossilcalibrations.org/) and the PaleoDB (http://fossilworks.org/) as appropriate.\par
+To maximize the impact of the work, I will preferentially publish in journals that have either permissive self-archiving policies or low-cost open access options. The journal for which my work will be most appropriate, \textit{Systematic Biology}, is one such journal, allowing both preprints and self-archiving of manuscripts. Access is especially important for my work, as I will be generating best-practice recommendations for total evidence dating. Talks on the proposed work will be archived in my personal  SlideShare  account \\ (\url{http://www.slideshare.net/wrightaprilm}). \par
+
+\section{Scientific Software}
+
+Analytical scripts generated during the project will be housed in GitHub repositories, via my personal account (\url{https://github.com/wrightaprilm?tab=repositories}). Development on the RevBayes software will take place through the RevBayes GitHub organization and repository (\url{https://github.com/revbayes/revbayes}). Through the use of these repositories, the software will always be backed up to a remote server, and will be prepared for instant, free dissemination to users, who can download the software directory from GitHub. \par
+
+\section{Other Materials and Outputs}
+
+An educational module on the evolution of ants will be housed on the AIM-UP website (\url{http://www.aim-up.org/educational-modules}). I will also create a website for the project via Github Pages (\url{https://pages.github.com/}). The GitHub Pages service is a simple way to create websites for projects, where the code, data and other project information (such as workshop and talk announcements) can be housed. Materials for computational biology workshops will also be hosted through this site.\par
+
+\end{document}
